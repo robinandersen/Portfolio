@@ -1,14 +1,18 @@
-<?php snippet('header') ?>
+<?php snippet('header-white') ?>
 
   <main class="main" role="main">
 
-    <div id="about" class="fadein">
-      <div class="about-intro"><?php echo $page->intro()->kirbytext() ?></div>
-      <?php echo $page->about()->kirbytext() ?>
-      <ul>
-          <li><a href="https://dribbble.com/robinandersen">Dribbble</a></li>
-          <li><a href="https://twitter.com/robin_an">Twitter</a></li>
-      </ul>
+    <div class="about-container fadein">
+        <div class="flex-item">
+
+          <img src="content/2-about/<?php echo $page->pofileImage()->image() ?>">
+
+        </div>
+        <div class="flex-item2">
+
+          <?php echo $page->intro()->kirbytext() ?>
+
+        </div>
     </div>
 
   </main>
