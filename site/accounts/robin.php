@@ -7,10 +7,10 @@ password: >
 language: en
 role: admin
 history:
+  - about
   - home/byggmakker
   - home/intersport-ecommerse
   - home/norway-designs
   - home/grand-tours-project
-  - about
 firstname: Robin
 lastname: Andersen

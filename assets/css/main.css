@@ -181,12 +181,12 @@ article .case {
     margin: 0 20px; }
 
 #about {
-  margin: 300px auto 0px auto;
+  margin: 300px auto 0px 10%;
   text-align: left;
   max-width: 650px;
   font-size: 18px;
   line-height: 33px;
-  padding: 0 20px 100px 20px; }
+  padding: 0 20px 100px 0; }
   #about a, #about a:visited {
     text-decoration: none;
     color: #ffffff;
@@ -408,7 +408,10 @@ footer {
     font-size: 16px;
     line-height: 25px; }
   article .case .case-intro #intro {
-    max-width: 60%; } }
+    max-width: 60%; }
+
+  #about {
+    margin: 300px auto 0px 5%; } }
 @media screen and (max-width: 500px) {
   header nav li:first-child {
     margin-right: 20px; }
@@ -447,7 +450,10 @@ footer {
     article .case .case-intro #intro {
       max-width: 100%;
       margin-top: 30px;
-      float: none; } }
+      float: none; }
+
+  #about {
+    margin: 250px auto 0px 5%; } }
 @media screen and (max-width: 375px) {
   header {
     top: 20px; }
@@ -513,6 +519,9 @@ footer {
         main table.projects tr td:last-child {
           padding: 0 0 0px 0px; }
     main .margin-row {
-      text-align: right; } }
+      text-align: right; }
+
+  #about {
+    margin: 200px auto 0px 5%; } }
 
 /*# sourceMappingURL=main.css.map */
